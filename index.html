@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <title>Portifólio</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+  </head>
+  <body>
+    <header id="cabecalho">
+      <div id="app">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">          
+            <a class="navbar-brand navfont" href="http://www.wsinservices.com.br/"><img  class="card-img-top logo" src="./img/letra_a.jfif" alt="letra A"/></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div id="navbarNavDropdown" class="navbar-collapse collapse">
+            <ul class="navbar-nav mr-auto"></ul>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                  <button type="submit" class="btn btn-secundary" data-toggle="modal" data-target="#myModal">
+                    <i class="fa fa-envelope-open-o" aria-hidden="true"></i> contato
+                  </button>                  
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="principal" class="margem">
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <h1 class="display-4">Analista de Sistema</h1>
+            <p class="lead">
+              Eu, <i><b>André Souza Nunes</b></i>, 
+              casado, pai de 05 filhos, temente a DEUS, analista de sistema
+              há mais de 25 anos, contribuindo com soluções no dia a dia para
+              grandes coorporações, analisando problemas complexos e convertendo
+              em soluções simples, aprendeu a trabalhar em equipe e entende que
+              devemos nos descobrir a cada dia se envolvendo em novas
+              tecnologias mesmo que não seja aplicado no dia a dia, e sempre
+              estar aberto para novos desafios. Nós últimos dois anos
+              trabalhando com desenvolvimento
+              <b>mobile (angular/ionic/react native)</b>,
+              <b>java no back end e no front end reactJs</b>.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="imagem">
+        <div class="container">
+          <div class="row">
+            <!-- card Java-->
+            <div class="card java">
+              <img
+                class="card-img-top imgjava"
+                src="./img/java.jpg"                
+                target="_blank"
+                alt="Imagem de capa do card Java"/>
+              <div class="card-body">
+                <p class="card-text">
+                  Projeto adcionado ao GITHUB.
+                </p>              
+              </div>
+              <div class="card-footer">
+                  <a href="#" class="card-link linkjava">GitHub</a>
+              </div>
+            </div>
+            <div class="espaco"></div>
+            <!-- card Angular-->            
+            <div class="card angular">
+              <img
+                class="card-img-top"
+                src="./img/angular.png"
+                target="_blank"
+                alt="Imagem de capa Angular"/>
+              <div class="card-body">
+                <p class="card-text">
+                   Projeto disponibilizado na ferramenta do GitHub.
+                </p>
+              </div>
+              <div class="card-footer">
+                  <a href="https://github.com/AndreNunes1812/ionic" class="card-link">GitHub</a>
+              </div>
+            </div>
+            <div class="espaco"></div>
+            <!-- card Python -->  
+            <div class="card python">
+              <img
+                class="card-img-top"
+                src="./img/python.jfif"
+                target="_blank"
+                style="margin-top: 10px"
+                alt="Python"/>
+              <div class="card-body">
+                <p class="card-text">
+                    Projeto Trailer desenvolvido para atender a ementa do curso Desenvolvedor Web Full-Stack da UDACITY.
+                </p>              
+              </div>
+              <div class="card-footer">
+                  <a href="#" class="card-link">GitHub</a>
+              </div>
+            </div>
+            <div class="espaco"></div>
+
+            <div class="card react">
+              <img
+                class="card-img-top imgreact"
+                src="./img/reactJS.jpg"
+                target="_blank"                
+                alt="Imagem de capa do card"/>
+              <div class="card-body">
+                <p class="card-text react-p">
+                  Projeto de estudo feito apartir GoStack da rocketSeat
+                  (https://rocketseat.com.br/), projeto publicado na digital ocean.
+                </p>               
+              </div>
+              <div class="card-footer">
+                  <a href="http://gitcompare.wsinservices.com.br/"
+                  class="card-link"
+                  target="_blank">projeto em produção</a>               
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="exibirmodal">
+          <div class="modal fade" id="myModal">
+              <div class="modal-dialog">
+                <div class="modal-content">                
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">Contato</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>                  
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                      <section id="infomodal">
+                          <form id="formulario">
+                              <div class="form-group">
+                                  <label for="exampleFormControlInput1">Nome</label>
+                                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="informe seu nome">
+                              </div>
+                              <div class="form-group">
+                                  <label for="exampleFormControlInput1">Email</label>
+                                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                              </div>
+                              <div class="form-group">
+                                  <label for="exampleFormControlTextarea1">Descrição</label>
+                                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                              </div>
+                          </form>
+                      </section>
+                  </div>                  
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secundary" data-dismiss="modal">Fechar</button>
+                  </div>                  
+                </div>
+              </div>
+            </div>           
+      </section>
+    </main>
+
+    <footer id="rodape">
+      <div class="container footer" >
+        <p>Projeto para atender o curso de <b>Desenvolvedor Web Full-Stack</b> da Udacity.</p>
+      </div>
+    </footer>
+
+    <script src="./js/jquery-3.2.1.slim.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.js"></script>
+  </body>
+</html>
